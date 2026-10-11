@@ -98,26 +98,7 @@ export default function Discover() {
               </div>
             </div>
 
-            {/* REMOVE HEALTH GOAL UI → Only show General scores */}
-            <div className="absolute right-4 top-1/2 -translate-y-1/2 flex gap-4 text-xl font-bold text-white">
-              {[
-                { label: "L", value: food.L },
-                { label: "Lv", value: food.Lv },
-                { label: "M", value: food.M },
-                { label: "C", value: food.C },
-                { label: "O", value: food.O },
-                { label: "N", value: food.N }
-              ].map((item) => (
-                <div key={item.label} className="flex flex-col items-center">
-                  <span className="text-gray-300 text-lg mb-1">{item.label}</span>
-                  <div
-                    className={`w-6 h-6 flex items-center justify-center rounded-full ${scoreColor(item.value)} text-black text-lg font-bold`}
-                  >
-                    {item.value}
-                  </div>
-                </div>
-              ))}
-            </div>
+        
 
           </div>
         ))}
