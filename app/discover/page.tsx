@@ -5,7 +5,7 @@ import { useState } from "react";
 import foods from "../data/foods.json";
 
 // Green shade scale
-function scoreColor(score) {
+function scoreColor(score: number) {
   switch (score) {
     case 4: return "bg-[#1fbf55]";
     case 3: return "bg-[#4cd97a]";
