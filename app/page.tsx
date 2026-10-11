@@ -32,7 +32,7 @@ export default function Home() {
 
         <Link
           href="/about"
-          className="text-gray-300 hover:text-white text-lg font-medium"
+          className="bg-gray-800 px-6 py-3 rounded-xl text-lg font-semibold hover:bg-gray-700"
         >
           About Plate365
         </Link>
