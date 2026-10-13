@@ -1,5 +1,6 @@
 import "./globals.css";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
   title: "Plate365",
@@ -39,6 +40,7 @@ export default function RootLayout({
             Methodology
           </Link>
         </div>
+        <Analytics />
       </body>
     </html>
   );
